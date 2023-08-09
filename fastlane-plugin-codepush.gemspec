@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/codepush/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-codepush'
+  spec.name          = 'fastlane-plugin-codepush-fix'
   spec.version       = Fastlane::Codepush::VERSION
-  spec.author        = 'Pranit Harekar'
-  spec.email         = 'pranitharekar@hotmail.com'
+  spec.author        = 'Chin Trinh'
+  spec.email         = 'chin.trinh@groovetechnology.com'
 
   spec.summary       = 'Fastlane plugin for App Center CodePush actions 🚀'
-  spec.homepage      = "https://github.com/Pranit-Harekar/fastlane-plugin-codepush"
+  spec.homepage      = "https://github.com/chintrinh-groove/fastlane-plugin-codepush"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
